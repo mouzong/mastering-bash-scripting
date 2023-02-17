@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Author: Andreas MOUZONG
+# Date Created: 17/02/2023
+# Last Modified: 17/02/2023
+
+# Description
+# Prints "This is my first script" to the terminal
+
+# Usage
+# our_first_script
+
+echo "This is my first script"
+exit 0
