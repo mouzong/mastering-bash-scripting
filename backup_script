@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Author: Andreas MOUZONG
+# Date Created: 17/02/2023
+# Last modified: 17/02/2023
+
+# Description
+# This script backs up all files and folders in the working directory and sav them in a .tar archive
+
+# Usage backup_script
+
+tar -cvf ./my_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ./* 2>/dev/null
+
+
